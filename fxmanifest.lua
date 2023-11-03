@@ -19,7 +19,9 @@ client_scripts {
     '@PolyZone/ComboZone.lua',
 }
 
-server_script 'server/main.lua'
+server_scripts {
+    'server/*.lua',
+}
 
 
 lua54 'yes'
